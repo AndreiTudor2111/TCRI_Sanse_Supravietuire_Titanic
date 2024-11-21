@@ -15,8 +15,8 @@ def load_model_and_scaler(model_path, scaler_path):
         return None, None
 
 # Definirea căilor către model și scaler
-model_path = r'C:\Users\ostac\Desktop\TCRI\Baza de date\SVM_sanse.pkl'
-scaler_path = r'C:\Users\ostac\Desktop\TCRI\Baza de date\SVM_scaler_sanse.pkl'
+model_path = 'SVM_sanse.pkl'
+scaler_path = 'SVM_scaler_sanse.pkl'
 
 # Încărcarea modelului și scaler-ului
 svm_model, scaler = load_model_and_scaler(model_path, scaler_path)
